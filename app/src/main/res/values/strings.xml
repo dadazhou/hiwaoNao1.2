@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">hiwaoNao1.2</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_connect">connect</string>
+    <string name="button_disconnect">disconnect</string>
+    <string name="button_textsend">确认</string>
+</resources>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/ip"
+            android:layout_width="193dp"
+            android:layout_height="wrap_content"
+            android:hint="IP:"
+            android:layout_weight="0.96" />
+        <EditText
+            android:id="@+id/port"
+            android:layout_width="73dp"
+            android:layout_height="wrap_content"
+            android:hint="Port:"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/connect_button"
+            android:hint="@string/button_connect" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/disconnect_button"
+            android:hint="@string/button_disconnect" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </LinearLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal">
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="212dp"-->
+            <!--android:layout_weight="0.66">-->
+
+            <!--<com.dadazhou.hiwaonao12.Rocker-->
+                <!--android:layout_marginBottom="200dp"-->
+                <!--android:id="@+id/rudder"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="233dp"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_row="5"-->
+                <!--android:layout_column="9" />-->
+
+        <!--</LinearLayout>-->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小苹果"
+            android:id="@+id/cmdbutton_xpg"
+            android:layout_row="7"
+            android:layout_column="11" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自我介绍"
+            android:id="@+id/cmdbutton_zwjs"
+            android:layout_row="7"
+            android:layout_column="12" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="站起来"
+            android:id="@+id/cmdbutton_zql"
+            android:layout_row="8"
+            android:layout_column="11" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蹲下"
+            android:id="@+id/cmdbutton_dx"
+            android:layout_row="8"
+            android:layout_column="12" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="stop"
+            android:id="@+id/stop"
+            android:layout_row="24"
+            android:layout_column="0"
+            android:layout_columnSpan="13" />
+    </GridLayout>
+
+</LinearLayout>
